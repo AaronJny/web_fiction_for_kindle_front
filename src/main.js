@@ -5,8 +5,8 @@ import App from './App.vue'
 import axios from 'axios'
 
 Vue.prototype.$axios = axios;
-Vue.prototype.base_url = 'http://localhost:7777';
-// Vue.prototype.base_url = '';
+// Vue.prototype.base_url = 'http://localhost:7777';
+Vue.prototype.base_url = '';
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false;
